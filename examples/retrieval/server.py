@@ -11,8 +11,8 @@ from langserve import add_routes
 
 # Azure OpenAI API key should only use the following variables
 azure_openai_api_type = "azure"
-azure_openai_api_base = "https://" + <azure-ai-service-id> + ".openai.azure.com/openai/deployments/" + <azure-deployment> + "/"
-azure_openai_api_key = <azure-openai-api-key>
+azure_openai_api_base = "https://<azure-ai-service-id>.openai.azure.com/openai/deployments/<azure-deployment>/"
+azure_openai_api_key = "<azure-openai-api-key>"
 azure_openai_api_version = "2024-02-15-preview"
 embedding = AzureOpenAIEmbeddings(
     openai_api_type=azure_openai_api_type,
