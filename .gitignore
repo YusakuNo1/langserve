@@ -1,3 +1,5 @@
+# *.david.*
+
 js_client/node_modules
 
 # Byte-compiled / optimized / DLL files
